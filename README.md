@@ -1,24 +1,25 @@
-# Laravel 5.4 with Angular 4.3.4(Using Angular cli)
+# Laravel 5 y Angular 4 integrados en el mismo servidor
 
-## Installation
+## Instalacion
 
 ```
 composer install
 npm install
 ```
 
-Create `.env` file (can be based on `.env.example`)
+Modificar el fichero .env y borrar la clave de aplicacion y crear una nueva
+Modificar ademas la informacion de la base de datos
 ```
 php artisan key:generate
 ```
 
-## Build
+## Compilar el proyecto de Angular cada vez que se modifique
 
 ```
 ng build
 ```
 
-## Run Laravel
+## Servir la aplicacion
 
 ```
 php artisan serve
